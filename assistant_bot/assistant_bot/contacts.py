@@ -1,3 +1,5 @@
+from functools import wraps
+
 def input_error(func):
     """
     Decorator to handle exceptions and return user-friendly error messages.
@@ -5,6 +7,7 @@ def input_error(func):
     :param func: Function to wrap.
     :return: Wrapped function with error handling.
     """
+    @wraps(func)
     def inner(*args, **kwargs):
         try:
             return func(*args, **kwargs)
