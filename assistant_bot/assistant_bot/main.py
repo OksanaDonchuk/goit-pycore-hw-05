@@ -1,5 +1,5 @@
-from parser import parse_input
-from handlers import handle_action
+from assistant_bot.parser import parse_input
+from assistant_bot.handlers import handle_action
 
 def print_help() -> None:
     """

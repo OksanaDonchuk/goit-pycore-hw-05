@@ -1,4 +1,4 @@
-from contacts import add_contact, change_contact, show_phone, show_all
+from assistant_bot.contacts import add_contact, change_contact, show_phone, show_all
 
 def handle_action(action: str, args: list[str], contacts: dict[str, str]) -> str:
     """
