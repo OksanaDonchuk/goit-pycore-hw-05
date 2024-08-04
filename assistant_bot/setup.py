@@ -4,7 +4,7 @@ setup(
     name='assistant_bot',
     version='0.1',
     description='Assistant bot',
-    url='https://github.com/OksanaDonchuk/',
+    url='https://github.com/OksanaDonchuk/goit-pycore-hw-05/blob/main/assistant_bot/assistant_bot/main.py',
     author='Oksana Donchuk',
     author_email='ksunya.donchuk@gmail.com',
     packages=find_packages(),
